@@ -1,0 +1,905 @@
+body{
+    overflow-x: hidden;
+}
+
+a ,.canceldetails{
+    text-decoration: none;
+}
+a:hover
+  {
+    text-decoration:none;
+   
+    cursor:pointer;
+   }
+.alink:hover   
+{
+    color:white;
+}
+
+#bar-chart-example, #bar-chart-example1 {
+    background-color: #fff;
+    border: 0 solid #eee;
+    border-radius: 0;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.purple-section
+{
+    margin-bottom:20px;
+}
+body {
+    /*font-family: 'Titillium Web', sans-serif;*/
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    /*line-height: 1.7;*/
+    font-weight: 400;
+    background-color: #F0F0F7;
+}
+#user-empcode
+{
+   font-size:10px;
+}
+/*DRIVER TRACK*/
+.info {
+    background-color: #fff;
+    width: 100%;
+    padding: 0 4%;
+    margin-left: 6%;
+    border-radius: 3px;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15);
+    overflow-y: scroll;
+    min-height: 200px;
+    max-height: 300px;
+}
+
+.info__block {
+    padding-top: 4%;
+}
+.info__head {
+    padding-bottom: 1rem;
+}
+.info__details {
+    overflow: auto;
+}
+/*Counter block*/
+/***Number counter styling****/
+.center-section
+{
+  margin:auto;
+}
+.numbers__item
+{
+   background-color: #fff;
+   padding: 1rem;
+   border-radius: 2px;
+   box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.2);
+}
+.numbers__value {
+   font-weight: bold;
+   text-align: center;
+  font-size:1.2rem;
+   margin: 0;
+}
+.container1
+{
+    width:96%;
+    margin:auto;
+  
+
+}
+.card-header {
+    padding: 1rem 1.25rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.con
+{
+    width:96%;
+    margin:auto;
+}
+#chart,#myChart1
+{
+    border-radius: 3px;
+    box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.2);
+}
+.grid {
+   display: grid;
+   grid-template-columns: 1fr;
+  grid-gap:10px;
+  /*padding:0 20px;*/
+  }
+  .numbers__text {
+   text-align: center;
+   font-size: 0.9rem;
+   margin-top: 1rem;
+}
+.svg-rupee
+{
+   width:1.3rem;
+   height:1.3rem;
+}
+.value-rupee
+{
+   display:inline;
+   font-weight: bold;
+   text-align: center;
+   font-size: 1.2rem;
+}
+
+/***BROWSER SUPPORT FOR SELECT BOX******/
+/*select {
+    -moz-appearance:none; /* Firefox 
+    -webkit-appearance:none;  Safari and Chrome 
+    appearance:none;
+}
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+option:not(:checked) {
+  color: black; /* prevent <option>s from becoming transparent as well 
+}*/
+/*
+.dropdown1
+{
+
+    font-family: 'Lato', sans-serif;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+select:focus {
+    outline: none;
+}
+a:focus {
+    outline: none;
+}
+/*
+.select-box {
+    position: relative;
+    /*Don't really need this just for demo styling*
+    
+    
+  
+  }
+  .select-box:after {
+ 
+    font-family: "Font Awesome 5 Free"; 
+    color: #0ebeff;
+    content: '\f13a';
+    right: 11px;
+    top: 6px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+    border-left: 1px solid #0ebeff;
+    position: absolute;
+    pointer-events: none;
+}*/
+/****LOGO STYLES*****/
+ /*#fh5co-logo {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.7;
+}
+.logo-dot
+{
+    color: #F73859;
+}*/
+.submitbtn
+{
+    margin: 2% 0 2% 38%;
+}
+
+.nav-logo
+{
+    height:60px;
+    width:60px;
+}
+.navbar-expand-lg
+{
+    background-image: linear-gradient(135deg, #6a81e9, #9c6cce);
+}
+.nav-link
+{
+    color:white;
+    font-size: 14px;
+}
+.navbar-brand
+{
+    color:white;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.nav-link:hover,.navbar-brand:hover
+{
+    color:black;
+} 
+
+.navbar-nav > li > .dropdown-menu {
+     background-color:white;
+     }
+     .dropdown-item
+     {
+         color:black;
+     }
+   
+     .svg-icon
+     {
+         stroke: white;
+     }
+     .custom-submit-btn {
+        text-transform: uppercase;
+        padding: 6px;
+        border-radius: 3px;
+     
+        background: linear-gradient(135deg, #ff4c9f, #ff7b74);
+        border: 1px solid transparent;
+        color: #fff;
+        -webkit-box-shadow: 0 2px 6px -2px #b92b24;
+        box-shadow: 0 2px 6px -2px #b92b24;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        font-weight: bold;
+        letter-spacing: .06em;
+    }
+    .custom-submit-btn:focus {
+        -webkit-box-shadow: 0 4px 12px -5px #b92b24;
+        box-shadow: 0 4px 12px -5px #b92b24;
+        background: linear-gradient(135deg, #ff4c9f, #ff7b74);
+        border: 1px solid transparent;
+        color: #fff !important;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+    /*FORM*/
+    .form-control:focus,select:focus{
+        border-color:#007bff;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+.form-container
+{
+    background-color: #fff;
+    margin:auto;
+   
+    padding:0px 0 10px 17px;
+   
+    margin-bottom: 50px;
+    border-radius: 3px;
+    width: 72%;
+}
+
+.addbookinglabel {
+    line-height: 34px;
+    font-size: 20px;
+    color: #444;
+    margin: 0;
+}
+.formCreate_form-group {
+    margin-bottom: 1.5rem;
+    font-size: 13px;
+}
+label {
+   
+   width: 100%;
+   /* margin-left:8px;*/
+    font-weight: bold;
+}
+input {
+    display:block;
+ }
+ input[type="text"],select,textarea{
+     width:90%;
+     background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0.5rem;
+    height: auto;
+    font-size: 13px;
+    display: block;
+    
+    height: 34px;
+    padding:0px 20px 0px 3px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+ }
+ textarea{
+     height:100px;
+ }
+ .emp-code
+ {
+     margin:0;
+ }
+.formCreate__input {
+ 
+    width: 27%;
+}
+.formCreate__head {
+    padding: .7% 0%;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2%;
+}
+.formitem
+{
+    display:inline;
+}
+ label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+.custom-submit-btn {
+  
+   
+}
+.grid-form,.grid-form1,.grid3
+    {
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    }
+    input[type="submit"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }    
+   /* .mlb
+    {
+        margin-left:8px;
+    }*/
+
+/******DIALOG BOX STYLES***************/
+
+.custom-alert-success {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    right: 20px; }
+  
+  .alert-wrap {
+    position: relative;
+    margin: 63px auto;
+    text-align: center;
+    z-index: 4;
+   }
+  
+  .alert {
+    top: 0;
+    left: 0;
+    right: 0 !important;
+    width: 30%;
+    margin: -20px auto;
+    z-index: 9999;
+    bottom: 0;
+    margin-top: -3%;
+    padding: 2px;
+    color: #fff; }
+  
+  .alert-wrap-login .alert {
+    margin-top: -5%; }
+  
+  .alert-success {
+    background-color: #7ed56f;
+    border-color: transparent;
+    color:white;
+    margin-top: -30px;
+  }
+  
+  .alert-danger {
+    background-color: #e74c3c;
+    border-color: transparent; }
+  
+  .alert p {
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 12px; }
+  
+  .custom-alert-fail {
+    position: absolute;
+    z-index: 10;
+    right: 20px; }
+  
+  .alert-layout {
+    z-index: 99999;
+    position: absolute;
+    right: 30%; }
+  
+  .alert-layout--div {
+    display: block;
+    width: 100%; }
+  
+  .alert-layout--div > p {
+    padding: 0.5rem 1rem; }
+
+    /**STYLES FOR ADD CLIENT ********/
+
+.driverVehicle__img {
+    background-color: beige;
+    text-align: center;
+    padding: 3% 0;
+
+    width:95%;
+  
+   
+
+margin: 0 10px 0 5px;
+}
+.mri{
+    padding-right:10px;
+}
+
+.grid-item-grid
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+}
+
+.form-grid-add-driver
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+}
+
+.upload-btn-wrapper {
+position: relative;
+overflow: hidden;
+display: inline-block;
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.driverVehicle__img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.custom-file-btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+/**STYLES FOR SELF BILLING********/
+.grid-form-client-billing,.grid-driver-taxi-details
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:10px;
+    }
+ /*TABLE STYLES FOR ACTIVE UNASSIGNED BOOKINGS****/
+ th{
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    width:100%;
+    border-bottom: 1px solid #ccc;
+ }   
+
+ /*SVG STYLE FOR I IN ACTIVE UNASSIGNED PAGE****/
+ .fa-info {
+    color: #43425d;
+    width:30px;
+    height:30px;
+}
+.trash{
+    color: #e74c3c;
+}
+.trash,.users,.suitcase,.rupee,.chart-line,.track1,.lock{
+  
+    width:20px;
+    height:20px;
+}
+/* Modal styles */
+.modal-title {
+    margin: 0;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+}
+.modal-yes
+{
+    margin-left: 10px;
+}
+.modal-button
+{
+    width: 47%;
+}
+.close-button
+{
+    font-weight: bold;
+}
+/*MODAL STYLES FOR ADD TAXI*/
+.grid-modal-add-driver
+{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+/*BOOKING DETAILS CSS */
+.grid-booking-details,.grid-assign-booking-details
+{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+/*TOGGLE SWITCH IN VIEW CLIENTS PAGE****/
+
+.toggle {
+    position: absolute;
+    bottom:10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    -webkit-transition: border-color .6s ease-out;
+    transition: border-color .6s ease-out;
+    box-sizing: border-box;
+}
+.toggle.toggle-on {
+    border-color: #27ae60;
+    -webkit-transition: all .5s .15s ease-out;
+    transition: all .5s .15s ease-out;
+}
+.switch {
+    width: 72px;
+    height: 24px;
+   margin-top: -20px;
+    position: relative;
+    bottom: -1px;
+    left: 70px;
+}
+.toggle-on .toggle-text-off {
+    color: rgba(0, 0, 0, 0);
+}
+.toggle-text-off {
+    position: absolute;
+    top: 0px;
+    width: 68px;
+    bottom: 0px;
+    right: -7px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    color: #ccc;
+}
+.toggle-on .glow-comp {
+    opacity: 1;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.glow-comp {
+   position: absolute;
+    opacity: 0;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 6px;
+    background-color: rgba(75, 122, 141, 0.1);
+    box-shadow: 0 0 12px rgba(75, 122, 141, 0.2);
+    -webkit-transition: opacity 4.5s 1s;
+    transition: opacity 4.5s 1s;
+}
+.toggle-on .toggle-button {
+    top: 2px;
+    width: 63px;
+    bottom: 2px;
+    right: 2px;
+    border-radius: 14px;
+    background-color: #2ecc71;
+    border-color: #27ae60;
+    box-shadow: 0 0 2px #27ae60;
+    -webkit-transition: all .2s .1s, right .1s;
+    transition: all .2s .1s, right .1s;
+}
+.toggle-button {
+        position: absolute;
+        top: 4px;
+        width: 14px;
+        bottom: 4px;
+        right: 50px;
+        background-color: #ccc;
+        border-radius: 19px;
+        cursor: pointer;
+        -webkit-transition: all .3s .1s, width .1s, top .1s, bottom .1s;
+        transition: all .3s .1s, width .1s, top .1s, bottom .1s;
+    }
+    
+
+.toggle-on .toggle-text-on {
+    color: #fff;
+    -webkit-transition: color 0.3s 0.15s;
+    transition: color 0.3s 0.15s;
+    font-weight: bold;
+    font-size: 13px;
+}
+.toggle-text-on {
+    position: absolute;
+    top: 0px;
+    width: 68px;
+    bottom: 0px;
+    right: 1px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: rgba(0, 0, 0, 0);
+}
+/**CLIENT DETAILS*************/
+.breadcrumb1
+{
+    
+    padding: 11px 15px;
+    margin-bottom: 12px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 16px -2px #ccc;
+}
+.tripheading{
+    color: #777;
+}
+.row1{
+    width:95%;
+}
+.page-container
+{
+    width:72%;
+    margin:auto;
+}
+.form-container-details
+{
+background-color: #fff;
+margin-bottom: 10px;
+padding:10px 0 10px 17px;
+border-radius: 3px;
+}
+/***DRIVER DETAILS PAGE****/
+.form-containerwith2cols
+{
+background-color: #fff;
+margin-bottom: 10px;
+padding:10px 0 10px 17px;
+border-radius: 3px;
+box-shadow: 0 3px 16px -2px #ccc;
+}
+.profile {
+    background-color: #fff;
+    width: 100%;
+    padding: 4%;
+    border-radius: 3px;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+
+/**STYLES FOR NAV TABS***/
+.nav-tabs .nav-link.active  {
+    border: 1px solid transparent !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+    padding: 15px 16px;
+    background: linear-gradient(135deg, #ff4c9f, #ff7b74);
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-tabs .nav-link {
+    padding: 15px 16px;
+    background-color: #ccc;
+    margin: 0;
+    color: #444;
+}
+/*VIEW DRIVER*/
+.verification-msg {
+    font-size: 11px;
+    padding: 1% 6%;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.pending {
+    background-color: #f1c40f;
+}
+.profile__img {
+    text-align: center;
+  
+    padding: 6% 0;
+}
+.profile__img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left:3px;
+}
+/*
+
+.select2-selection__rendered {
+  margin: 10px;
+}
+
+
+.select2-selection__arrow {
+  margin: 10px;
+}
+
+.select2-selection {
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  color: #555555;
+  font-size: 14px;
+  outline: 0;
+  min-height: 48px;
+  text-align: left;
+}
+
+.select2-selection__rendered {
+  margin: 10px;
+}
+
+.select2-selection__arrow {
+  margin: 10px;
+}*/
+.longinputfield
+{
+    width:60%;
+}
+.onlysinglegridcol
+{ 
+   display:grid;
+   grid-template-columns: 1fr;
+}
+@media screen and (min-width: 1028px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 10px;
+       
+    }
+ /*MODAL STYLES FOR ADD TAXI*/
+ .grid3
+    {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+.grid-modal-add-driver
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}   
+    #user-empcode
+{
+    font-size:14px;
+}
+    .grid-form
+    {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    }
+    .formCreate__input {
+ 
+        width: 20%;
+    }
+    /*.ml
+    {
+        margin-left: 10px;
+    }*/
+    .grid-form1
+    {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    }
+    .alert p {
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 16px;
+     }
+.paddingclass
+{
+    margin-left:2%;
+}
+.invoice-detail-row {
+    
+    margin: 2% 5%;
+    background-color: #fbfbfb;
+    border-radius: 3px;
+}
+    /**STYLES FOR ADD CLIENT ********/
+    .driverVehicle__img
+    {
+        width: 85%;
+        margin: 0 10px 0 10px;
+    } 
+    .grid-item-grid
+    {
+     
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .form-grid-add-driver
+    {
+      
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    /**STYLES FOR SELF BILLING********/
+    .grid-form-client-billing
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    /*BOOKING DETAILS CSS */
+.grid-booking-details
+{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-assign-booking-details
+{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-driver-taxi-details
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+}
+.trash,.users,.suitcase,.rupee,.chart-line,.track1{
+  
+    width:25px;
+    height:25px;
+}
+
+}
+

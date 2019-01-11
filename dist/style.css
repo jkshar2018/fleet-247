@@ -1,0 +1,383 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    /*font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    color: #444;
+    /*line-height: 1.7;*/
+    font-weight: 400;
+    background-color: #F0F0F7;
+}
+.grid-item1
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+/****LOGO STYLES*****/
+ /*#fh5co-logo {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.7;
+}
+.logo-dot
+{
+    color: #F73859;
+}*/
+.submitbtn
+{
+    margin: 2% 0 2% 38%;
+}
+.nav-logo
+{
+    height:60px;
+    width:60px;
+}
+.navbar-expand-lg
+{
+    background-image: linear-gradient(135deg, #6a81e9, #9c6cce);
+}
+.nav-link
+{
+    color:white;
+    font-size: 18px;
+}
+.navbar-brand
+{
+    color:white;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.nav-link:hover,.navbar-brand:hover
+{
+    color:black;
+} 
+
+.navbar-nav > li > .dropdown-menu {
+     background-color:white;
+     }
+     .dropdown-item
+     {
+         color:black;
+     }
+   
+     .svg-icon
+     {
+         stroke: white;
+     }
+     .custom-submit-btn {
+        text-transform: uppercase;
+        padding: 6px;
+        border-radius: 3px;
+     
+        background: linear-gradient(135deg, #ff4c9f, #ff7b74);
+        border: 1px solid transparent;
+        color: #fff;
+        -webkit-box-shadow: 0 2px 6px -2px #b92b24;
+        box-shadow: 0 2px 6px -2px #b92b24;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        font-weight: bold;
+        letter-spacing: .06em;
+    }
+    .custom-submit-btn:focus {
+        -webkit-box-shadow: 0 4px 12px -5px #b92b24;
+        box-shadow: 0 4px 12px -5px #b92b24;
+        background: linear-gradient(135deg, #ff4c9f, #ff7b74);
+        border: 1px solid transparent;
+        color: #fff !important;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+    /*FORM*/
+    .form-control:focus,select:focus{
+        border-color:#007bff;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+.form-container
+{
+    background-color: #fff;
+    margin:auto;
+    margin-bottom: 10px;
+    padding:0px 0 10px 0;
+   
+    
+    border-radius: 3px;
+    width: 85%;
+}
+
+.addbookinglabel {
+    line-height: 34px;
+    font-size: 20px;
+    color: #444;
+    margin: 0;
+}
+.formCreate_form-group {
+    margin-bottom: 1.5rem;
+    font-size: 13px;
+}
+label {
+   
+    width: 100%;
+
+    font-weight: bold;
+}
+input {
+    display:block;
+ }
+ input,select,textarea{
+     width:70%;
+     background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0.5rem;
+    height: auto;
+    font-size: 13px;
+    display: block;
+    
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+ }
+ .emp-code
+ {
+     margin:0;
+ }
+.formCreate__input {
+ 
+    width: 27%;
+}
+.formCreate__head {
+    padding: .7% 0%;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid #ccc;
+    margin: 2%;
+}
+.formitem
+{
+    display:inline;
+}
+.formCreate_form-group > label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+.custom-submit-btn {
+  
+   
+}
+.grid-form,.grid-form1
+    {
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    }
+    input[type="submit"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }    
+    .mlb
+    {
+        margin-left:10px;
+    }
+
+/******DIALOG BOX STYLES***************/
+
+.custom-alert-success {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    right: 20px; }
+  
+  .alert-wrap {
+    position: relative;
+    margin: 63px auto;
+    text-align: center;
+    z-index: 4;
+   }
+  
+  .alert {
+    top: 0;
+    left: 0;
+    right: 0 !important;
+    width: 30%;
+    margin: -20px auto;
+    z-index: 9999;
+    bottom: 0;
+    margin-top: -3%;
+    padding: 2px;
+    color: #fff; }
+  
+  .alert-wrap-login .alert {
+    margin-top: -5%; }
+  
+  .alert-success {
+    background-color: #7ed56f;
+    border-color: transparent;
+    color:white;
+    margin-top: -30px;
+  }
+  
+  .alert-danger {
+    background-color: #e74c3c;
+    border-color: transparent; }
+  
+  .alert p {
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 12px; }
+  
+  .custom-alert-fail {
+    position: absolute;
+    z-index: 10;
+    right: 20px; }
+  
+  .alert-layout {
+    z-index: 99999;
+    position: absolute;
+    right: 30%; }
+  
+  .alert-layout--div {
+    display: block;
+    width: 100%; }
+  
+  .alert-layout--div > p {
+    padding: 0.5rem 1rem; }
+
+    /**STYLES FOR ADD CLIENT ********/
+
+.driverVehicle__img {
+    background-color: beige;
+    text-align: center;
+    padding: 3% 0;
+
+    width:95%;
+  
+   
+
+margin: 0 10px 0 10px;
+}
+.mri{
+    padding-right:10px;
+}
+.grid-item-grid
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+}
+
+.form-grid-add-driver
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+}
+.upload-btn-wrapper {
+position: relative;
+overflow: hidden;
+display: inline-block;
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.driverVehicle__img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.custom-file-btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+/**STYLES FOR SELF BILLING********/
+.grid-form-client-billing
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:10px;
+    }
+   
+@media screen and (min-width: 1028px) {
+    .grid-form
+    {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    }
+    .formCreate__input {
+ 
+        width: 20%;
+    }
+    .ml
+    {
+        margin-left: 10px;
+    }
+    .grid-form1
+    {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    }
+    .alert p {
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 16px;
+     }
+
+    /**STYLES FOR ADD CLIENT ********/
+    .driverVehicle__img
+    {
+        width: 85%;
+    } 
+    .grid-item-grid
+    {
+     
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .form-grid-add-driver
+    {
+      
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    /**STYLES FOR SELF BILLING********/
+    .grid-form-client-billing
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
